@@ -22,11 +22,10 @@ Product.init(
       allowNull: false,
     },
     price: {
-      type: DataTypes.INTEGER,
+      type: DataTypes.DECIMAL,
       allowNull: false,
-      defaultValue: 10,
       validate: {
-        isNumeric: true,
+        isDecimal: true,
       },
     },
     stock: {
@@ -43,6 +42,7 @@ Product.init(
         model: "category",
         key: "id",
       },
+      onDelete: "SET NULL",
     },
   },
   {
