@@ -17,7 +17,7 @@ This application allows users to perform CRUD (Create, Read, Update, Delete) act
 
 ![Walkthrough](assets/images/Walkthrough.gif)
 
-[Link to Walkthrough]()
+[Link to Walkthrough](https://drive.google.com/file/d/1E5mwD1Px67I0ZH2d9jXgyiJr5QWrG3hU/view)
 
 ## Installation
 
